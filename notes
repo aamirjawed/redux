@@ -1,0 +1,15 @@
+# Middleware
+1. It is the suggested way to extend Redux with custom functionality
+2. Provides a third-party extension point between dispatching an action,
+    and the moment it reaches the reducer
+3. Use middleware for logging, crash reporting, performing asynchronous 
+    tasks etc.
+
+    
+# Async action in redux
+
+    Async action creators
+    will be using:
+        axios: Request to an API end point
+        redux-thunk: Define async action creators
+        middlewares
